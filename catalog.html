@@ -26,10 +26,10 @@
 		<section>
 			<h2>Фильтр товаров</h2>
         <form method="get" action="https://echo.htmlacademy.ru">
-          <fieldset>
-            <legend>Стоимость:</legend>
-            <!-- Здесь будет форма -->
-          </fieldset>
+          <label for="filter-cost">Стоимость:</label>
+          <input type="range" name="cost" id="filter-cost" step="1000" min="0" max="15000">
+          <p>От<span>0</span></p>
+          <p>До<span>15000</span></p>
           <fieldset>
             <legend>Сетка:</legend>
             <ul>
