@@ -25,24 +25,57 @@
 	<main>
 		<section>
 			<h2>Фильтр товаров</h2>
-      <ul>
-        <li>
-          <h3>Особенности:</h3>
-          <!-- Здесь будет форма -->
-        </li>
-        <li>
-          <h3>Сетка:</h3>
-          <!-- Здесь будет форма -->
-        </li>
-        <li>
-          <h3>Стоимость:</h3>
-          <!-- Здесь будет форма -->
-        </li>
-        <li>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Стоимость:</legend>
+            <!-- Здесь будет форма -->
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="grid" value="adapted" id="filter-adapted" checked>
+                <label for="filter-adapted">Адаптивная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="fixed" id="filter-fixed">
+                <label for="filter-fixed">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="rubber" id="filter-rubber">
+                <label for="filter-rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="slider" id="filter-slider" checked>
+                <label for="filter-slider">Слайдер</label>
+              </li>
+              <li>
+                <input type="checkbox" name="advantage" id="filter-advantage">
+                <label for="filter-advantage">Блок преимуществ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="news" id="filter-news" checked>
+                <label for="filter-news">Новости</label>
+              </li>
+              <li>
+                <input type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label>
+              </li>
+              <li>
+                <input type="checkbox" name="basket" id="filter-basket">
+                <label for="filter-basket">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
           <h3>Сортировать:</h3>
           <!-- Здесь будет форма -->
-        </li>
-      </ul>
 		</section>
 		<section>
 			<h2>Список шаблонов</h2>
