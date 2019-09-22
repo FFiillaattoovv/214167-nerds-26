@@ -7,4 +7,12 @@ body {
   line-height: 24px;
   font-weight: normal;
   color: #283136;
+
+  background-image: url("img/white-back.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
 }
