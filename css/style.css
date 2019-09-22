@@ -45,3 +45,13 @@ a {
 .project-list {
   list-style: none;
 }
+
+.project-item {
+  text-align: left;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
