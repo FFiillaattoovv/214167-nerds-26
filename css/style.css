@@ -41,3 +41,7 @@ a {
 .user-navigation a:focus {
   background-color: #fb565a;
 }
+
+.project-list {
+  list-style: none;
+}
