@@ -34,3 +34,10 @@ a {
 .user-navigation a {
   color: #000000;
 }
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #fb565a;
+}
