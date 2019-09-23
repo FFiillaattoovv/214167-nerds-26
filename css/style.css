@@ -17,6 +17,27 @@ a {
   text-decoration: none;
 }
 
+.button {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: medium;
+  color: #ffffff;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #e74246;
+}
+
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
@@ -54,6 +75,7 @@ a {
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .bg-header {
@@ -63,17 +85,15 @@ a {
   background-image: url("../img/grey-back.png");
 }
 
-.button {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: medium;
-  color: #ffffff;
-
-  text-align: center;
-  vertical-align: middle;
+.about-us .uppercase {
+  font-weight: bold;
+  color: #000000;
   text-transform: uppercase;
+}
 
-  background-color: #fb565a;
-  border: none;
+.about-us caption {
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
 }
