@@ -8,7 +8,7 @@ body {
   font-weight: normal;
   color: #283136;
 
-  background-image: url("img/white-back.png");
+  background-image: url("../img/white-back.png");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -54,4 +54,11 @@ a {
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+}
+
+.bg-header {
+  background-color: #eeeeee;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../img/grey-back.png");
 }
