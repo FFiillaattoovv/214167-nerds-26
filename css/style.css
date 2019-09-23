@@ -109,3 +109,19 @@ a {
   color: #000000;
   text-transform: uppercase;
 }
+
+.offer-a-discount .first {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+
+.offer-a-discount .second {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: regular;
+  text-align: left;
+  color: #444444;
+}
