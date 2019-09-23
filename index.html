@@ -47,7 +47,7 @@
   </header>
   <main>
     <h1 class="visually-hidden">Дизайн-студия «Нёрдс»</h1>
-    <section>
+    <section class="project">
       <h2 class="visually-hidden">Проекты</h2>
       <ul class="project-list">
         <li class="project-item">
@@ -70,11 +70,11 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="about-us">
       <h2 class="visually-hidden">О нас</h2>
       <p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-      <p>Выполняем заказы на разработку:</p>
+      <p class="uppercase">Выполняем заказы на разработку:</p>
       <ul>
         <li>Веб-сайтов любой сложности</li>
         <li>Мобильных приложений для iOS и Android</li>
@@ -127,24 +127,25 @@
     </div>
   </section>
   </footer>
-    <section>
+    <section class="write-to-us">
       <h2>Nёrds design studio</h2>
-      <p>91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <p>тел. +7 (812) 275-75-75</p>
+      <p class="write-to-us-info">91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="write-to-us-info">тел. +7 (812) 275-75-75</p>
+      <button class="button" type="button">Напишите нам</button>
       <form method="post" action="https://echo.htmlacademy.ru">
-        <p>
+        <p class="write-to-us-item">
           <label for="user-name">Ваше имя:</label>
           <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
         </p>
-        <p>
+        <p class="write-to-us-item">
           <label for="user-e-mail">Ваш e-mail:</label>
           <input id="user-e-mail" type="text" name="e-mail" placeholder="email@example.com">
         </p>
-        <p>
+        <p class="write-to-us-item">
           <label for="user-letter">Текст письма:</label>
           <textarea id="user-letter" type="text" name="letter" placeholder="В свободной форме"></textarea>
         </p>
-        <button type="submit">Отправить</button>
+        <button class="button" type="submit">Отправить</button>
       </form>
       <button type="button">Закрыть</button>
     </section>
