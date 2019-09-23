@@ -47,7 +47,9 @@ a {
 }
 
 .site-navigation,
-.user-navigation {
+.user-navigation,
+.project-list,
+.social-media-list {
   list-style: none;
 }
 
@@ -61,11 +63,6 @@ a {
 .user-navigation a:hover,
 .user-navigation a:focus {
   background-color: #fb565a;
-}
-
-.project-list,
-.social-media-list {
-  list-style: none;
 }
 
 .project-item {
