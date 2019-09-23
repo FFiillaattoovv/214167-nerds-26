@@ -127,3 +127,11 @@ a {
   text-align: left;
   color: #444444;
 }
+
+.filter-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}

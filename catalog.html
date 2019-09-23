@@ -26,15 +26,15 @@
 		</nav>
 	</header>
 	<main>
-		<section>
+		<section class="filter">
 			<h2 class="visually-hidden">Фильтр товаров</h2>
         <form method="get" action="https://echo.htmlacademy.ru">
-          <label for="filter-cost">Стоимость:</label>
+          <label class="filter-heading" for="filter-cost">Стоимость:</label>
           <input type="range" name="cost" id="filter-cost" step="1000" min="0" max="15000">
           <p>От<span>0</span></p>
           <p>До<span>15000</span></p>
           <fieldset>
-            <legend>Сетка:</legend>
+            <legend class="filter-heading">Сетка:</legend>
             <ul>
               <li>
                 <input type="radio" name="grid" value="adapted" id="filter-adapted" checked>
@@ -51,7 +51,7 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Особенности:</legend>
+            <legend class="filter-heading">Особенности:</legend>
             <ul>
               <li>
                 <input type="checkbox" name="slider" id="filter-slider" checked>
