@@ -63,7 +63,8 @@ a {
   background-color: #fb565a;
 }
 
-.project-list {
+.project-list,
+.social-media-list {
   list-style: none;
 }
 
