@@ -41,7 +41,9 @@ a {
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
+  font-weight: 500;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .site-navigation,
