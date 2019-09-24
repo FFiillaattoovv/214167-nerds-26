@@ -52,7 +52,9 @@ a {
 .social-media-list,
 .grid-list,
 .feature-list,
-.sorting-list {
+.sorting-list,
+.templates-list,
+.pagination-list {
   list-style: none;
 }
 
