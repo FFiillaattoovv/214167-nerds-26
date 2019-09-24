@@ -32,6 +32,10 @@ a {
   border: none;
 }
 
+.filter fieldset {
+  border: none;
+}
+
 .button:hover,
 .button:focus,
 .button:active {
