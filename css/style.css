@@ -180,3 +180,26 @@ a {
   font-weight: normal;
   color: #283136;
 }
+
+.white-back {
+  width: 360px;
+  height: 231px;
+  background-image: url("../img/white-back-copy.png");
+}
+
+.white-back-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.white-back-description {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #666666;
+}
