@@ -21,7 +21,7 @@ a {
   font-family: Roboto, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
-  font-weight: medium;
+  font-weight: 500;
   color: #ffffff;
 
   text-align: center;
@@ -30,6 +30,12 @@ a {
 
   background-color: #fb565a;
   border: none;
+}
+
+.button.gray {
+  background-color: #eeeeee;
+  color: #000000;
+  font-weight: ;
 }
 
 .filter fieldset {
