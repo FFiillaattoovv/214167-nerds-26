@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260.094" height="80.063" viewBox="0 0 260.094 80.063">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1f1f1;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="price_slider_back" data-name="price slider back" class="cls-1" d="M142.911,487.987H397a3,3,0,0,1,3,3v74.06a3,3,0,0,1-3,3H142.911a3,3,0,0,1-3-3v-74.06A3,3,0,0,1,142.911,487.987Z" transform="translate(-139.906 -488)"/>
+</svg>

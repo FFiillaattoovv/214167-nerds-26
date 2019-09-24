@@ -135,3 +135,11 @@ a {
   color: #000000;
   text-transform: uppercase;
 }
+
+.filter p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
