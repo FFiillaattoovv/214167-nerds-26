@@ -105,11 +105,18 @@ a {
   text-transform: uppercase;
 }
 
-.main-header {
+.main-header.large{
   background-color: #eeeeee;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url("../img/grey-back.png");
+  background-image: url("../img/grey-back-index.png");
+}
+
+.main-header.small{
+  background-color: #eeeeee;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url("../img/grey-back-catalog.png");
 }
 
 .main-header h1 {
