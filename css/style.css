@@ -42,6 +42,14 @@ a {
   font-weight: ;
 }
 
+.button.green {
+  background-color: #00ca74;
+}
+
+.button.yellow {
+  background-color: #efc84a;
+}
+
 .filter fieldset {
   border: none;
 }
