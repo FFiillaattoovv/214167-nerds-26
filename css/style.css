@@ -287,3 +287,14 @@ a {
   justify-content: center;
 }
 
+.grey-round:hover {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-color: #e74246;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
