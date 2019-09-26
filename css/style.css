@@ -47,7 +47,16 @@ a {
 .button.gray {
   background-color: #eeeeee;
   color: #000000;
-  font-weight: ;
+}
+
+.button.gray:hover,
+.button.gray:focus {
+  background-color: #dfdfdf;
+}
+
+.button.gray:active {
+  background-color: #d5d5d5;
+  color: #959595;
 }
 
 .button.green {
