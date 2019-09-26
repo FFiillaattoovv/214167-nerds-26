@@ -101,8 +101,7 @@ a {
   color: #edc265;
 }
 
-.main-navigation,
-.sorting-list {
+.main-navigation {
   font-size: 16px;
   line-height: 30px;
   font-weight: 500;
@@ -110,12 +109,39 @@ a {
   text-transform: uppercase;
 }
 
-.sorting-list {
+.sorting-list a {
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
-  color: #000000;
+  color: #b2b2b2;
   text-transform: uppercase;
+}
+
+.sorting-list a:hover,
+.sorting-list a:focus {
+  color: #666666;
+}
+
+.sorting-list a:active {
+  color: #000000;
+}
+
+.sorting-list .icon-down-dir:hover,
+.sorting-list .icon-down-dir:focus {
+  background-image: url("../img/icon-down-dir-hover.png");
+}
+
+.sorting-list .icon-up-dir:hover,
+.sorting-list .icon-up-dir:focus {
+  background-image: url("../img/icon-up-dir-hover.png");
+}
+
+.sorting-list .icon-down-dir:active {
+  background-image: url("../img/icon-down-dir-active.png");
+}
+
+.sorting-list .icon-up-dir:active {
+  background-image: url("../img/icon-up-dir-active.png");
 }
 
 .site-navigation,
@@ -131,13 +157,8 @@ a {
 }
 
 .site-navigation a,
-.user-navigation a,
-.sorting-list a {
+.user-navigation a {
   color: #000000;
-}
-
-.sorting-list-gray a {
-  color: rgba(0, 0, 0, 0.3);
 }
 
 .site-navigation a:hover,
