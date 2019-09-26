@@ -72,9 +72,13 @@ a {
 }
 
 .button:hover,
-.button:focus,
-.button:active {
+.button:focus {
   background-color: #e74246;
+}
+
+.button:active {
+  background-color: #d7373b;
+  color: #e06366;
 }
 
 .button.green:hover,
