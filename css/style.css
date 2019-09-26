@@ -82,15 +82,23 @@ a {
 }
 
 .button.green:hover,
-.button.green:focus,
-.button.green:active {
+.button.green:focus {
   background-color: #00bc6c;
 }
 
+.button.green:active {
+  background-color: #00aa62;
+  color: #4dc491;
+}
+
 .button.yellow:hover,
-.button.yellow:focus,
-.button.yellow:active {
+.button.yellow:focus {
   background-color: #eab534;
+}
+
+.button.yellow:active {
+  background-color: #e5a722;
+  color: #edc265;
 }
 
 .main-navigation,
