@@ -68,6 +68,18 @@ a {
   background-color: #e74246;
 }
 
+.button.green:hover,
+.button.green:focus,
+.button.green:active {
+  background-color: #00bc6c;
+}
+
+.button.yellow:hover,
+.button.yellow:focus,
+.button.yellow:active {
+  background-color: #eab534;
+}
+
 .main-navigation,
 .sorting-list {
   font-size: 16px;
