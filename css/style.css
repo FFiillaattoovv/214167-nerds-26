@@ -126,6 +126,26 @@ a {
   color: #f87f81;
 }
 
+.our-customers-1:hover,
+.our-customers-1:focus {
+  background-image: url("../img/logo-1-copy.png");
+}
+
+.our-customers-2:hover,
+.our-customers-2:focus {
+  background-image: url("../img/logo-2-copy.png");
+}
+
+.our-customers-3:hover,
+.our-customers-3:focus {
+  background-image: url("../img/logo-3-copy.png");
+}
+
+.our-customers-4:hover,
+.our-customers-4:focus {
+  background-image: url("../img/logo-4-copy.png");
+}
+
 .project-item {
   text-align: left;
 }
