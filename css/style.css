@@ -126,6 +126,10 @@ a {
   color: #f87f81;
 }
 
+.site-navigation a:active {
+  color: #bababa;
+}
+
 .nerds-logo:hover,
 .nerds-logo:focus {
   background-image: url("../img/nerds-logo-2.svg");
