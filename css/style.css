@@ -111,7 +111,7 @@ a {
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
-  background-color: #fb565a;
+  color: #f87f81;
 }
 
 .project-item {
