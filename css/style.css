@@ -161,9 +161,17 @@ a {
   background-image: url("../img/logo-1-copy.png");
 }
 
+.our-customers-1:active {
+  background-image: url("../img/logo-1-copy-2.png");
+}
+
 .our-customers-2:hover,
 .our-customers-2:focus {
   background-image: url("../img/logo-2-copy.png");
+}
+
+.our-customers-2:active {
+  background-image: url("../img/logo-2-copy-2.png");
 }
 
 .our-customers-3:hover,
@@ -171,9 +179,17 @@ a {
   background-image: url("../img/logo-3-copy.png");
 }
 
+.our-customers-3:active {
+  background-image: url("../img/logo-3-copy-2.png");
+}
+
 .our-customers-4:hover,
 .our-customers-4:focus {
   background-image: url("../img/logo-4-copy.png");
+}
+
+.our-customers-4:active {
+  background-image: url("../img/logo-4-copy-2.png");
 }
 
 .project-item {
