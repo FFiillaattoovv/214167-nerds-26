@@ -126,6 +126,11 @@ a {
   color: #f87f81;
 }
 
+.nerds-logo:hover,
+.nerds-logo:focus {
+  background-image: url("../img/nerds-logo-2.svg");
+}
+
 .our-customers-1:hover,
 .our-customers-1:focus {
   background-image: url("../img/logo-1-copy.png");
@@ -287,7 +292,8 @@ a {
   justify-content: center;
 }
 
-.grey-round:hover {
+.grey-round:hover,
+.grey-round:focus  {
   width: 79px;
   height: 79px;
   border-radius: 50%;
