@@ -383,3 +383,8 @@ a {
   background-color: #d7373b;
 }
 
+.templates-vertical {
+  margin: 0;
+  width: 360px;
+  line-height: 1px;
+}
