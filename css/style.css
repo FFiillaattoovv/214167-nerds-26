@@ -291,7 +291,7 @@ a {
   text-transform: uppercase;
 }
 
-.offer-a-discount .first {
+.offer-a-discount .offer-first {
   font-size: 36px;
   line-height: 36px;
   font-weight: bold;
@@ -299,7 +299,7 @@ a {
   color: #000000;
 }
 
-.offer-a-discount .second {
+.offer-a-discount .offer-second {
   font-size: 16px;
   line-height: 22px;
   font-weight: regular;
