@@ -59,6 +59,18 @@ a {
   color: #959595;
 }
 
+.button.gray-current {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button.gray-current:hover,
+.button.gray-current:focus,
+.button.gray-current:active {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .button.green {
   background-color: #00ca74;
 }
