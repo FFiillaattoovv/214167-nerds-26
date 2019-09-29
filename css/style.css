@@ -391,3 +391,12 @@ a {
 .cart-icon-bg {
   fill: #a6a6a6;
 }
+
+.nerds-logo:hover,
+.nerds-logo:focus {
+  opacity: 0.8;
+}
+
+.nerds-logo:active {
+  opacity: 0.3;
+}
