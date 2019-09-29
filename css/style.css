@@ -387,3 +387,7 @@ a {
   width: 360px;
   line-height: 1px;
 }
+
+.cart-icon-bg {
+  fill: #a6a6a6;
+}
