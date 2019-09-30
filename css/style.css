@@ -382,6 +382,10 @@ a {
   background-color: #d7373b;
 }
 
+.grey-round:active svg {
+  opacity: 0.3;
+}
+
 .templates-vertical {
   margin: 0;
   width: 360px;
