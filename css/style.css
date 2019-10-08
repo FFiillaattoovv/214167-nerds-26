@@ -404,3 +404,147 @@ a {
 .nerds-logo:active {
   opacity: 0.3;
 }
+
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 2476px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url("../img/nerds-index-grid.jpg");
+  background-repeat: no-repeat;
+}
+
+.container {}
+
+.main-header.large {
+  /* Временно для сетки */
+  min-height: 544px;
+  padding-top: 1px;
+
+  background-color: #f2f233;
+  opacity: 0.3;
+}
+
+/* Весь блок с навигацией */
+.main-navigation {
+  width: 1160px;
+  height: 65px;
+  display: flex;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 48px;
+  margin-bottom: 431px;
+
+  background-color: #8cf233;
+}
+
+/* Логотип */
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+  display: block;
+  background-color: #33d9f2;
+}
+
+/* Навигация по сайту */
+.site-navigation {
+  width: 397px;
+  height: 14px;
+  margin-left: 202px;
+  margin-top: 33px;
+  margin-right: 245px;
+
+  background-color: #f26f33;
+  opacity: 0.7;
+}
+
+/* Вход в аккаунт*/
+.user-navigation {
+  width: 75px;
+  height: 16px;
+  margin-top: 32px;
+
+  background-color: #3336f2;
+  opacity: 0.7;
+}
+
+.project {
+  min-height: 506px;
+  padding-top: 1px;
+
+  background-color: #83ed26;
+  opacity: 0.5;
+}
+
+.project-list {
+  width: 1099px;
+  height: 347px;
+  display: flex;
+  list-style: none;
+  margin-left: 140px;
+  margin-top: 79px;
+  margin-right: 200px;
+  margin-bottom: 80px;
+  padding-left: 1px;
+
+
+  background-color: #3336f2;
+  opacity: 0.9;
+}
+
+.project-item-1 {
+  width: 299px;
+  height: 347px;
+  margin-right: 100px;
+
+  background-color: #ed1b0c;
+}
+
+.project-item-2 {
+  width: 300px;
+  height: 347px;
+  margin-right: 100px;
+
+  background-color: #5fed0c;
+}
+
+.project-item-3 {
+  width: 300px;
+  height: 347px;
+
+
+  background-color: #0caded;
+}
+
+.social-media {
+  width: 1443px;
+  height: 217px;
+  margin-top: 1207px;
+  display: flex;
+
+  background-color: #83ed26;
+  opacity: 0.3;
+}
+
+.social-media-container {
+  width: 260px;
+  height: 80px;
+  margin-left: 140px;
+  margin-top: 68px;
+
+  background-color: #ed1b0c;
+}
+
+.offer-a-discount {
+  width: 545px;
+  height: 63px;
+  margin-left: 139px;
+  margin-top: 78px;
+
+  background-color: #ed1b0c;
+}
