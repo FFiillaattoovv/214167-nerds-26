@@ -9,7 +9,7 @@ body {
   color: #283136;
 }
 
-/*.white-back-index {
+.white-back-index {
   background-image: url("../img/white-back-index.png");
   background-position: top center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
   background-image: url("../img/white-back-catalog.png");
   background-position: top center;
   background-repeat: no-repeat;
-}*/
+}
 
 a {
   text-decoration: none;
@@ -237,16 +237,10 @@ a {
 
 .main-header.large{
   background-color: #eeeeee;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-image: url("../img/grey-back-index.png");
 }
 
 .main-header.small{
   background-color: #eeeeee;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-image: url("../img/grey-back-catalog.png");
 }
 
 .main-header h1,
@@ -411,44 +405,48 @@ body {
   /* Временно для сетки */
   background-image: url("../img/nerds-index-grid.jpg");
   background-repeat: no-repeat;
+  background-size: 1349px auto;
 }
 
-.container {}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+
+  background-color: #f2f233;
+  opacity: 0.4;
+}
 
 .main-header.large {
   /* Временно для сетки */
-  min-height: 544px;
-  padding-top: 1px;
+  padding-top: 51px;
 
-  background-color: #f2f233;
-  opacity: 0.3;
+  /*background-color: #f2f233;
+  opacity: 0.3;*/
 }
 
 /* Весь блок с навигацией */
 .main-navigation {
-  width: 1160px;
   display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 48px;
+  align-items: center;
 
-  background-color: #8cf233;
+  /*background-color: #8cf233;*/
 }
 
 /* Логотип */
 .main-header-logo {
-  width: 160px;
-  height: 65px;
-  display: block;
+  width: 160px; /*Временно для сетки*/
+  height: 65px; /*Временно для сетки*/
+  margin-right: 202px;
+
   background-color: #33d9f2;
 }
 
 /* Навигация по сайту */
 .site-navigation {
-  width: 397px;
-  margin-left: 202px;
-  margin-right: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+  margin-top: 4px;
 
   background-color: #f26f33;
   opacity: 0.7;
@@ -458,16 +456,16 @@ body {
 .user-navigation {
   width: 75px;
 
-  background-color: #3336f2;
-  opacity: 0.7;
+  /*background-color: #3336f2;
+  opacity: 0.7;*/
 }
 
 .project {
   min-height: 506px;
   padding-top: 1px;
 
-  background-color: #83ed26;
-  opacity: 0.5;
+  /*background-color: #83ed26;
+  opacity: 0.5;*/
 }
 
 .project-list {
@@ -482,8 +480,8 @@ body {
   padding-left: 1px;
 
 
-  background-color: #3336f2;
-  opacity: 0.9;
+  /*background-color: #3336f2;
+  opacity: 0.9;*/
 }
 
 .project-item-1 {
@@ -491,7 +489,7 @@ body {
   height: 347px;
   margin-right: 100px;
 
-  background-color: #ed1b0c;
+  /*background-color: #ed1b0c;*/
 }
 
 .project-item-2 {
@@ -499,7 +497,7 @@ body {
   height: 347px;
   margin-right: 100px;
 
-  background-color: #5fed0c;
+  /*background-color: #5fed0c;*/
 }
 
 .project-item-3 {
@@ -507,17 +505,16 @@ body {
   height: 347px;
 
 
-  background-color: #0caded;
+  /*background-color: #0caded;*/
 }
 
 .social-media {
-  width: 1443px;
   height: 217px;
   margin-top: 1207px;
   display: flex;
 
-  background-color: #83ed26;
-  opacity: 0.3;
+  /*background-color: #83ed26;
+  opacity: 0.3;*/
 }
 
 .social-media-container {
@@ -526,7 +523,7 @@ body {
   margin-left: 140px;
   margin-top: 68px;
 
-  background-color: #ed1b0c;
+  /*background-color: #ed1b0c;*/
 }
 
 .offer-a-discount {
@@ -535,5 +532,5 @@ body {
   margin-left: 139px;
   margin-top: 78px;
 
-  background-color: #ed1b0c;
+  /*background-color: #ed1b0c;*/
 }
