@@ -407,12 +407,6 @@ a {
 
 /* ----- Сеточные стили ----- */
 
-html,
-body {
-  min-width: 1440px;
-  min-height: 2476px;
-}
-
 body {
   /* Временно для сетки */
   background-image: url("../img/nerds-index-grid.jpg");
