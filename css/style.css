@@ -9,18 +9,6 @@ body {
   color: #283136;
 }
 
-.white-back-index {
-  background-image: url("../img/white-back-index.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
-.white-back-catalog {
-  background-image: url("../img/white-back-catalog.png");
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
 a {
   text-decoration: none;
 }
