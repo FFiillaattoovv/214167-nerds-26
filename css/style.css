@@ -416,7 +416,7 @@ body {
   opacity: 0.4;
 }
 
-.main-header.large {
+.main-header {
   /* Временно для сетки */
   padding-top: 51px;
 
@@ -428,6 +428,7 @@ body {
 .main-header-logo {
   display: block;
   margin-right: 202px;
+
 
   background-color: #33d9f2;
 }
