@@ -157,6 +157,9 @@ a {
 
 .site-navigation a,
 .user-navigation a {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -225,6 +228,7 @@ a {
 
 .main-header.large{
   background-color: #eeeeee;
+  margin-top: 4px;
 }
 
 .main-header.small{
