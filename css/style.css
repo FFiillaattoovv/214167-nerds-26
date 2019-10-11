@@ -231,12 +231,17 @@ a {
 }
 
 .main-header.large{
-  background-color: #eeeeee;
-  margin-top: 4px;
+  /*background-color: #eeeeee;*/
+  /*margin-top: 4px;*/
 }
 
 .main-header.small{
   background-color: #eeeeee;
+}
+
+.advantage {
+  position: relative;
+  margin-bottom: 80px;
 }
 
 .main-header h1,
