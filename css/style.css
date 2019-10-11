@@ -430,8 +430,7 @@ body {
 
 /* Логотип */
 .main-header-logo {
-  width: 160px; /*Временно для сетки*/
-  height: 65px; /*Временно для сетки*/
+  display: block;
   margin-right: 202px;
 
   background-color: #33d9f2;
@@ -450,10 +449,12 @@ body {
 
 /* Вход в аккаунт*/
 .user-navigation {
-  width: 75px;
+  margin-top: 4px;
+  margin-left: auto;
+  padding-left: 41px;
 
-  /*background-color: #3336f2;
-  opacity: 0.7;*/
+  background-color: #3336f2;
+  opacity: 0.7;
 }
 
 .project {
