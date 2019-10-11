@@ -401,13 +401,6 @@ a {
 
 /* ----- Сеточные стили ----- */
 
-body {
-  /* Временно для сетки */
-  background-image: url("../img/nerds-index-grid.jpg");
-  background-repeat: no-repeat;
-  background-size: 1349px auto;
-}
-
 .container {
   width: 1160px;
   margin: 0 auto;
