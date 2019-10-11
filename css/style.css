@@ -234,11 +234,7 @@ a {
   text-transform: uppercase;
 }
 
-.main-header.large{
-  /*background-color: #eeeeee;*/
-}
-
-.main-header.small{
+.main-header {
   background-color: #eeeeee;
 }
 
