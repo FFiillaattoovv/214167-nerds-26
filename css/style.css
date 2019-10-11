@@ -107,6 +107,10 @@ a {
   font-weight: 500;
   color: #000000;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  /*background-color: #8cf233;*/
 }
 
 .sorting-list a {
@@ -422,14 +426,6 @@ body {
 
   /*background-color: #f2f233;
   opacity: 0.3;*/
-}
-
-/* Весь блок с навигацией */
-.main-navigation {
-  display: flex;
-  align-items: center;
-
-  /*background-color: #8cf233;*/
 }
 
 /* Логотип */
