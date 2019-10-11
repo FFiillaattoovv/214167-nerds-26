@@ -443,8 +443,13 @@ body {
   width: 540px;
   margin-top: 4px;
 
+
   background-color: #f26f33;
   opacity: 0.7;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 46px;
 }
 
 /* Вход в аккаунт*/
