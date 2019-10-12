@@ -161,6 +161,7 @@ a {
 .project-list,
 .slider-item,
 .about-us-list,
+.our-customers-list,
 .social-media-list,
 .filter-list,
 .sorting-list,
@@ -217,6 +218,40 @@ a {
 
 .site-navigation a:not([href]) {
   border-bottom: 2px solid #fb565a;
+}
+
+.our-customers {
+  margin-bottom: 80px;
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.our-customers-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0;
+  padding: 46px 0 37px 0;
+}
+
+.our-customers-list li {
+  position: relative;
+  width: 260px;
+  text-align: center;
+}
+
+.our-customers-list li:not(:nth-child(4n))::after {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+
+  content: "";
+  width: 2px;
+  height: 52px;
+  margin-top: -30px;
+
+  background-color: #eeeeee;
 }
 
 .our-customers-1:hover,
@@ -435,6 +470,8 @@ a {
   line-height: 18px;
   vertical-align: middle;
 }
+
+
 
 .write-to-us h2 {
   font-size: 18px;
