@@ -217,11 +217,6 @@ a {
   border-bottom: 2px solid #fb565a;
 }
 
-.nerds-logo:hover,
-.nerds-logo:focus {
-  background-image: url("../img/nerds-logo-2.svg");
-}
-
 .our-customers-1:hover,
 .our-customers-1:focus {
   background-image: url("../img/logo-1-copy.png");
