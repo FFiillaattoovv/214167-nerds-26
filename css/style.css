@@ -118,8 +118,6 @@ a {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-
-  background-color: #8cf233;
 }
 
 .sorting-list a {
@@ -171,15 +169,12 @@ a {
 }
 
 .site-navigation {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   width: 540px;
-  margin: 0;
-  padding: 0
   margin-top: 4px;
-
-  background-color: #f26f33;
-  opacity: 0.7;
 }
 
 .site-navigation li:not(:last-child) {
@@ -359,16 +354,11 @@ a {
 
 .main-header {
   padding-top: 51px;
-  /*background-color: #eeeeee;*/
-
-  background-color: #f2f233;
-  opacity: 0.3;
+  background-color: #eeeeee;
 }
 
 .main-header-logo {
   margin-right: 202px;
-
-  background-color: #33d9f2;
 }
 
 .main-header h1,
