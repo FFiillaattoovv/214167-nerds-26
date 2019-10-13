@@ -234,23 +234,20 @@
         </div>
       </section>
     </footer>
-    <section class="visually-hidden">
-      <form method="post" action="https://echo.htmlacademy.ru">
-        <p class="write-to-us-item">
-          <label for="user-name">Ваше имя:</label>
-          <input id="user-name" type="text" name="name" placeholder="Имя Фамилия">
-        </p>
-        <p class="write-to-us-item">
-          <label for="user-e-mail">Ваш e-mail:</label>
-          <input id="user-e-mail" type="text" name="e-mail" placeholder="email@example.com">
-        </p>
-        <p class="write-to-us-item">
-          <label for="user-letter">Текст письма:</label>
-          <textarea id="user-letter" type="text" name="letter" placeholder="В свободной форме"></textarea>
-        </p>
-        <button class="button" type="submit">Отправить</button>
-      </form>
-      <button type="button">Закрыть</button>
-    </section>
+    <form class="write-to-us-form" method="post" action="https://echo.htmlacademy.ru">
+      <h2>Напишите нам</h2>
+      <div class="write-to-us-field-container">
+        <label>Ваше имя:
+          <input class="write-to-us-field" type="text" name="name" placeholder="Имя Фамилия">
+        </label>
+        <label>Ваш e-mail:
+          <input class="write-to-us-field" type="email" name="e-mail" placeholder="email@example.com">
+        </label>
+      </div>
+        <label for="user-letter">Текст письма:</label>
+        <textarea class="write-to-us-text" id="user-letter" type="text" name="letter" rows="6" placeholder="В свободной форме"></textarea>
+      <button class="button write-to-us-button" type="submit">Отправить</button>
+    </form>
+    <button type="button"></button>
   </body>
 </html>

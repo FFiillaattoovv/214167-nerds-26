@@ -709,3 +709,78 @@ a {
   color: #444444;
   line-height: 22px;
 }
+
+.write-to-us-form {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  width: 960px;
+  padding: 70px 100px 85px 100px;
+  box-shadow: 0 0 30px -10px #000101;
+  color: #000000;
+}
+
+.write-to-us-form h2 {
+  margin-top: 0;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.write-to-us-form label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.write-to-us-field-container {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.write-to-us-field {
+  box-sizing: border-box;
+  width: 360px;
+  height: 50px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.write-to-us-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 48px;
+}
+
+.write-to-us-button {
+  width: 260px;
+  height: 50px;
+  padding: 16px 20px;
+}
+
+.write-to-us-form input,
+.write-to-us-form textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  border: 2px solid #d7dcde;
+  outline: none;
+}
+
+.write-to-us-form input,
+.write-to-us-form textarea {
+  border-color: #b4b9bb;
+}
+
+.write-to-us-form input,
+.write-to-us-form textarea {
+  border-color: #000000;
+}
+
+.write-to-us-form input:invalid,
+.write-to-us-form textarea:invalid {
+  color: #e74246;
+  border-color: #e74246;
+}
