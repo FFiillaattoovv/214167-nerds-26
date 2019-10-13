@@ -183,13 +183,18 @@ a {
 
 .user-navigation {
   margin: 0;
-  padding: 0
+  padding: 0;
   margin-top: 4px;
+  position: relative;
   margin-left: auto;
   padding-left: 41px;
+  color: #000000;
+}
 
-  background-color: #3336f2;
-  opacity: 0.3;
+.cart-icon {
+  position: absolute;
+  left: 1px;
+  top: 7px;
 }
 
 .site-navigation a,
@@ -202,16 +207,18 @@ a {
 
 .site-navigation a:hover,
 .site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
+.user-navigation:hover,
+.user-navigation:focus {
   color: #f87f81;
 }
 
-.site-navigation a:active {
+.site-navigation a:active,
+.user-navigation:active {
   color: #bababa;
 }
 
-.site-navigation a:not([href]) {
+.site-navigation a:not([href]),
+.user-navigation:not([href]) {
   border-bottom: 2px solid #fb565a;
 }
 
@@ -609,10 +616,6 @@ a {
   margin: 0;
   width: 360px;
   line-height: 1px;
-}
-
-.cart-icon-bg {
-  fill: #a6a6a6;
 }
 
 .nerds-logo:hover,
