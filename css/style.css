@@ -290,6 +290,53 @@ a {
   background-image: url("../img/logo-4-copy-2.png");
 }
 
+.location {
+  position: relative;
+}
+
+.location-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  margin-left: -720px;
+}
+
+.write-to-us {
+  position: absolute;
+  top: 54px;
+  left: 50%;
+  width: 220px;
+  margin-left: -580px;
+  padding: 50px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+
+.write-to-us h2 {
+  display: block;
+  margin-bottom: 22px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.write-to-us p {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.write-to-us .button {
+  width: 220px;
+  height: 50px;
+  padding: 16px 45px;
+  margin-top: 19px;
+}
+
 .project-item {
   width: 300px;
   margin-right: 100px;
@@ -469,16 +516,6 @@ a {
   padding-top: 10px;
   line-height: 18px;
   vertical-align: middle;
-}
-
-
-
-.write-to-us h2 {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
 }
 
 .offer-a-discount .offer-first {
