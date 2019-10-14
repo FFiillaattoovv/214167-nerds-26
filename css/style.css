@@ -557,19 +557,25 @@ a {
   vertical-align: middle;
 }
 
+.offer-a-discount {
+  margin: 0;
+  margin-top: 5px;
+}
+
 .offer-a-discount .offer-first {
   font-size: 36px;
   line-height: 36px;
   font-weight: bold;
-  text-align: left;
   color: #000000;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .offer-a-discount .offer-second {
+  margin: 0px;
   font-size: 16px;
   line-height: 22px;
   font-weight: regular;
-  text-align: left;
   color: #444444;
 }
 
@@ -704,8 +710,8 @@ a {
 
 .social-media {
   display: flex;
-  margin-bottom: 70px;
-  margin-top: 61px;
+  margin-bottom: 69px;
+  margin-top: 69px;
 }
 
 .social-media-list {
@@ -716,21 +722,6 @@ a {
   flex-wrap: wrap;
   width: 260px;
   margin-right: 140px;
-}
-
-.offer-a-discount .first {
-  margin-bottom: 10px;
-  font-size: 36px;
-  line-height: 36px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.offer-a-discount .second {
-  margin: 0;
-  margin-top: 5px;
-  color: #444444;
-  line-height: 22px;
 }
 
 .write-to-us-form {
