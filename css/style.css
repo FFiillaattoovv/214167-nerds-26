@@ -68,12 +68,18 @@ a {
   background-color: #ffffff;
 }
 
+.button.red {
+  padding: 16px 40px;
+}
+
 .button.green {
   background-color: #00ca74;
+  padding: 16px 40px;
 }
 
 .button.yellow {
   background-color: #efc84a;
+  padding: 16px 40px;
 }
 
 .filter fieldset {
@@ -357,7 +363,17 @@ a {
   margin-bottom: 10px;
 }
 
+.project-list li:nth-child(1) {
+  background: url("../img/illustration-1.jpg") no-repeat 0 0;
+}
 
+.project-list li:nth-child(2) {
+  background: url("../img/illustration-2.jpg") no-repeat 0 0;
+}
+
+.project-list li:nth-child(3) {
+  background: url("../img/illustration-3.jpg") no-repeat 0 0;
+}
 
 .main-header {
   padding-top: 51px;
@@ -653,17 +669,36 @@ a {
 }
 
 .project {
-  min-height: 506px;
-  padding-top: 1px;
+  margin-bottom: 80px;
 }
 
 .project-list {
-  display: flex;
   margin: 0;
   padding: 0;
+  display: flex;
+}
 
-  background-color: #3336f2;
-  opacity: 0.9;
+.project-item {
+  width: 300px;
+  margin-right: 100px;
+  padding-top: 146px;
+}
+
+.project-item:last-child {
+  margin-right: 0;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  width: 250px;
+  margin-bottom: 34px;
 }
 
 .social-media {
