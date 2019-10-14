@@ -307,7 +307,7 @@ a {
   top: 0;
   left: 50%;
   z-index: -1;
-  margin-left: -720px;
+  margin-left: -766px;
 }
 
 .write-to-us {
@@ -323,6 +323,7 @@ a {
 
 .write-to-us h2 {
   display: block;
+  margin-top: 0px;
   margin-bottom: 22px;
   font-size: 18px;
   line-height: 30px;
