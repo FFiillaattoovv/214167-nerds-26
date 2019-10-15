@@ -424,7 +424,7 @@ a {
   padding-left: 0px;
 }
 
-.main-header h1,
+main h1,
 .advantage-heading {
   font-size: 55px;
   line-height: 55px;
@@ -797,4 +797,19 @@ a {
 .write-to-us-form textarea:invalid {
   color: #e74246;
   border-color: #e74246;
+}
+
+.main-heading-wrapper {
+  padding-top: 68px;
+  padding-bottom: 108px;
+  margin-bottom: 55px;
+  background-color: #eeeeee;
+}
+
+.main-heading {
+  margin: 0;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  text-align: center;
 }
