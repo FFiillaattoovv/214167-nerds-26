@@ -88,163 +88,173 @@
       <div class="main-heading-wrapper">
         <h1 class="main-heading">Магазин готовых шаблонов</h1>
       </div>
-      <section class="filter">
-        <h2 class="visually-hidden">Фильтр товаров</h2>
-        <form method="get" action="https://echo.htmlacademy.ru">
-          <label class="filter-heading" for="filter-cost">Стоимость:</label>
-          <input type="range" name="cost" id="filter-cost" step="1000" min="0" max="15000">
-          <p>От<span>0</span></p>
-          <p>До<span>15000</span></p>
-          <fieldset>
-            <legend class="filter-heading">Сетка:</legend>
-            <ul class="filter-list">
-              <li>
-                <input type="radio" name="grid" value="adapted" id="filter-adapted" checked>
-                <label for="filter-adapted">Адаптивная</label>
-              </li>
-              <li>
-                <input type="radio" name="grid" value="fixed" id="filter-fixed">
-                <label for="filter-fixed">Фиксированная</label>
-              </li>
-              <li>
-                <input type="radio" name="grid" value="rubber" id="filter-rubber">
-                <label for="filter-rubber">Резиновая</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend class="filter-heading">Особенности:</legend>
-            <ul class="filter-list">
-              <li>
-                <input type="checkbox" name="slider" id="filter-slider" checked>
-                <label for="filter-slider">Слайдер</label>
-              </li>
-              <li>
-                <input type="checkbox" name="advantage" id="filter-advantage">
-                <label for="filter-advantage">Блок преимуществ</label>
-              </li>
-              <li>
-                <input type="checkbox" name="news" id="filter-news" checked>
-                <label for="filter-news">Новости</label>
-              </li>
-              <li>
-                <input type="checkbox" name="gallery" id="filter-gallery">
-                <label for="filter-gallery">Галерея</label>
-              </li>
-              <li>
-                <input type="checkbox" name="basket" id="filter-basket">
-                <label for="filter-basket">Корзина</label>
-              </li>
-            </ul>
-          </fieldset>
-          <button class="button gray" type="submit">Показать</button>
-        </form>
-        <h3>Сортировать:</h3>
-        <ul class="sorting-list">
-          <li><a href="">По цене</a></li>
-          <li><a href="">По типу</a></li>
-          <li><a href="">По названию</a></li>
-          <li><a href=""><img class="icon-down-dir" src="img/icon-down-dir.png" alt="По убыванию"></a></li>
-          <li><a href=""><img class="icon-up-dir" src="img/icon-up-dir.png"  alt="По возрастанию"></a></li>
-        </ul>
-      </section>
-      <section class="templates">
-        <h2 class="visually-hidden">Список шаблонов</h2>
-        <ul class="templates-list">
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">Sedona</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-sedona.jpg" alt="" width="360" height="576">
+      <div class="catalog-filter-wrapper">
+        <section class="catalog-filter">
+          <h2 class="visually-hidden">Фильтр товаров</h2>
+          <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset class="filter-cost">
+              <legend>Стоимость:</legend>
+              <div class="range-of-choice">
+                <div class="range-of-choice-strip"></div>
               </div>
-            </a>
-            <div class="white-back">
-              <p class="white-back-heading">Sedona</p>
-              <p class="white-back-description">Информационный сайт для туристов</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">Pink</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-pink.jpg" alt="" width="360" height="576">
+              <p>
+                <label for="min-price-input">От</label>
+                  <input class="min-price" id="min-price-input" type="text" name="min-price">
+                <label for="max-price-input">До</label>
+                  <input id="max-price-input" type="text" name="max-price">
+              </p>
+            </fieldset>
+            <fieldset class="filter-grid">
+              <legend>Сетка:</legend>
+              <ul class="filter-list">
+                <li>
+                  <input class="visually-hidden" type="radio" name="grid" value="adapted" id="filter-adapted" checked>
+                  <label for="filter-adapted">Адаптивная</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="radio" name="grid" value="fixed" id="filter-fixed">
+                  <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="radio" name="grid" value="rubber" id="filter-rubber">
+                  <label for="filter-rubber">Резиновая</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="filter-features">
+              <legend>Особенности:</legend>
+              <ul class="filter-list">
+                <li>
+                  <input class="visually-hidden" type="checkbox" name="slider" id="filter-slider" checked>
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="checkbox" name="advantage" id="filter-advantage">
+                  <label for="filter-advantage">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="checkbox" name="news" id="filter-news" checked>
+                  <label for="filter-news">Новости</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="checkbox" name="gallery" id="filter-gallery">
+                  <label for="filter-gallery">Галерея</label>
+                </li>
+                <li>
+                  <input class="visually-hidden" type="checkbox" name="basket" id="filter-basket">
+                  <label for="filter-basket">Корзина</label>
+                </li>
+              </ul>
+            </fieldset>
+            <button class="button gray" type="submit">Показать</button>
+          </form>
+          <h3>Сортировать:</h3>
+          <ul class="sorting-list">
+            <li><a href="">По цене</a></li>
+            <li><a href="">По типу</a></li>
+            <li><a href="">По названию</a></li>
+            <li><a href=""><img class="icon-down-dir" src="img/icon-down-dir.png" alt="По убыванию"></a></li>
+            <li><a href=""><img class="icon-up-dir" src="img/icon-up-dir.png"  alt="По возрастанию"></a></li>
+          </ul>
+        </section>
+        <section class="templates">
+          <h2 class="visually-hidden">Список шаблонов</h2>
+          <ul class="templates-list">
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">Sedona</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-sedona.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back">
+                <p class="white-back-heading">Sedona</p>
+                <p class="white-back-description">Информационный сайт для туристов</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
               </div>
-            </a>
-            <div class="white-back visually-hidden">
-              <p class="white-back-heading">Pink App</p>
-              <p class="white-back-description">Продуктовый лендинг приложения для iOS и Android</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">Borodinski</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-barbershop.jpg" alt="" width="360" height="576">
+            </li>
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">Pink</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-pink.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back visually-hidden">
+                <p class="white-back-heading">Pink App</p>
+                <p class="white-back-description">Продуктовый лендинг приложения для iOS и Android</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
               </div>
-            </a>
-            <div class="white-back visually-hidden">
-              <p class="white-back-heading">Barbershop</p>
-              <p class="white-back-description">Сайт салона красоты. Для мужчин, да.</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">Mishka</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-mishka.jpg" alt="" width="360" height="576">
+            </li>
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">Borodinski</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-barbershop.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back visually-hidden">
+                <p class="white-back-heading">Barbershop</p>
+                <p class="white-back-description">Сайт салона красоты. Для мужчин, да.</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
               </div>
-            </a>
-            <div class="white-back visually-hidden">
-              <p class="white-back-heading">Mishka</p>
-              <p class="white-back-description">Интернет-магазин вязаных игрушек</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">A Plus</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-aplus.jpg" alt="" width="360" height="576">
+            </li>
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">Mishka</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-mishka.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back visually-hidden">
+                <p class="white-back-heading">Mishka</p>
+                <p class="white-back-description">Интернет-магазин вязаных игрушек</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
               </div>
-            </a>
-            <div class="white-back visually-hidden">
-              <p class="white-back-heading">A Plus</p>
-              <p class="white-back-description">Лендинг курсов повышения квалификации</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-          <li>
-            <a href="">
-              <h3 class="visually-hidden">Кваст</h3>
-              <div class="templates-vertical">
-                <img src="img/browser.png" alt="" width="360" height="40">
-                <img src="img/img-kvast.jpg" alt="" width="360" height="576">
+            </li>
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">A Plus</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-aplus.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back visually-hidden">
+                <p class="white-back-heading">A Plus</p>
+                <p class="white-back-description">Лендинг курсов повышения квалификации</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
               </div>
-            </a>
-            <div class="white-back visually-hidden">
-              <p class="white-back-heading">Кваст</p>
-              <p class="white-back-description">Промо-сайт производителя крафтового кваса</p>
-              <a class="button" href=""><b>9900 руб.</b></a>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="pagination-list">
-          <li><a class="button gray-current">1</a></li>
-          <li><a class="button gray" href="">2</a></li>
-          <li><a class="button gray" href="">3</a></li>
-          <li><a class="button gray" href="">Следующая</a></li>
-        </ul>
-      </section>
+            </li>
+            <li>
+              <a href="">
+                <h3 class="visually-hidden">Кваст</h3>
+                <div class="templates-vertical">
+                  <img src="img/browser.png" alt="" width="360" height="40">
+                  <img src="img/img-kvast.jpg" alt="" width="360" height="576">
+                </div>
+              </a>
+              <div class="white-back visually-hidden">
+                <p class="white-back-heading">Кваст</p>
+                <p class="white-back-description">Промо-сайт производителя крафтового кваса</p>
+                <a class="button" href=""><b>9900 руб.</b></a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul class="pagination-list">
+            <li><a class="button gray-current">1</a></li>
+            <li><a class="button gray" href="">2</a></li>
+            <li><a class="button gray" href="">3</a></li>
+            <li><a class="button gray" href="">Следующая</a></li>
+          </ul>
+        </section>
+      </div>
     </main>
     <footer>
       <section class="location">

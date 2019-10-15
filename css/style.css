@@ -82,10 +82,6 @@ a {
   padding: 16px 40px;
 }
 
-.filter fieldset {
-  border: none;
-}
-
 .button:hover,
 .button:focus {
   background-color: #e74246;
@@ -579,30 +575,6 @@ main h1,
   color: #444444;
 }
 
-.filter-heading {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.filter p {
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: normal;
-  color: #283136;
-  text-transform: uppercase;
-}
-
-.main-grid label,
-.main-feature label {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: normal;
-  color: #283136;
-}
-
 .white-back {
   width: 360px;
   height: 231px;
@@ -813,3 +785,135 @@ main h1,
   color: #000000;
   text-align: center;
 }
+
+.catalog-filter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.catalog-filter {
+  line-height: 20px;
+}
+
+.catalog-filter fieldset {
+  border: none;
+}
+
+.catalog-filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-form fieldset {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-form .filter-cost {
+  margin-bottom: 56px;
+}
+
+.filter-cost legend {
+  margin-bottom: 48px;
+}
+
+.range-of-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 80px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+.range-of-choice-strip {
+  position: relative;
+  box-sizing: border-box;
+  width: 212px;
+  height: 2px;
+  background-color: #00ca74;
+  border-right: 60px solid #d7dcde;
+}
+
+.range-of-choice-strip::before,
+.range-of-choice-strip::after {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px #cccdcd;
+}
+
+.range-of-choice-strip::before {
+  left: -5px;
+  top: -10px;
+}
+
+.range-of-choice-strip::after {
+  right: -5px;
+  top: -10px;
+}
+
+.filter-cost p {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  width: 260px;
+}
+
+.filter-cost label {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #283136;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  margin-right: 12px;
+}
+
+.filter-cost input {
+  box-sizing: border-box;
+  width: 80px;
+  height: 36px;
+  padding: 7px;
+  padding-left: 11px;
+  padding-right: 0;
+  font: inherit;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 3px;
+}
+
+.filter-cost .min-price {
+  margin-right: auto;
+}
+
+.filter-grid {
+  margin-bottom: 45px;
+}
+
+.filter-grid legend {
+  margin-bottom: 16px;
+}
+
+.filter-grid label {
+  position: relative;
+}
+
+
+
+
