@@ -122,41 +122,6 @@ a {
   align-items: center;
 }
 
-.sorting-list a {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #b2b2b2;
-  text-transform: uppercase;
-}
-
-.sorting-list a:hover,
-.sorting-list a:focus {
-  color: #666666;
-}
-
-.sorting-list a:active {
-  color: #000000;
-}
-
-.sorting-list .icon-down-dir:hover,
-.sorting-list .icon-down-dir:focus {
-  background-image: url("../img/icon-down-dir-hover.png");
-}
-
-.sorting-list .icon-up-dir:hover,
-.sorting-list .icon-up-dir:focus {
-  background-image: url("../img/icon-up-dir-hover.png");
-}
-
-.sorting-list .icon-down-dir:active {
-  background-image: url("../img/icon-down-dir-active.png");
-}
-
-.sorting-list .icon-up-dir:active {
-  background-image: url("../img/icon-up-dir-active.png");
-}
-
 .site-navigation,
 .project-list,
 .slider-item,
@@ -164,7 +129,6 @@ a {
 .our-customers-list,
 .social-media-list,
 .filter-list,
-.sorting-list,
 .templates-list,
 .pagination-list {
   list-style: none;
@@ -933,3 +897,86 @@ main h1,
   color: #000000;
   background-color: #eeeeee;
 }
+
+.sorting-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.sorting-wrapper h3 {
+  margin: 0;
+  margin-top: -1px;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.sorting-list {
+  padding-top: 1px;
+  margin: 0;
+}
+
+.sorting-list a:not(.sorting-triangle) {
+  margin-right: 22px;
+}
+
+.sorting-list a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #b2b2b2;
+  text-transform: uppercase;
+}
+
+.sorting-list a:hover,
+.sorting-list a:focus {
+  color: #666666;
+}
+
+.sorting-list a:active {
+  color: #000000;
+}
+
+.sorting-list .icon-down-dir:hover,
+.sorting-list .icon-down-dir:focus {
+  background-image: url("../img/icon-down-dir-hover.png");
+}
+
+.sorting-list .icon-up-dir:hover,
+.sorting-list .icon-up-dir:focus {
+  background-image: url("../img/icon-up-dir-hover.png");
+}
+
+.sorting-list .icon-down-dir:active {
+  background-image: url("../img/icon-down-dir-active.png");
+}
+
+.sorting-list .icon-up-dir:active {
+  background-image: url("../img/icon-up-dir-active.png");
+}
+
+.sorting-triangle {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 15px;
+}
+
+/*.sorting-triangle {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  content: "";
+  border: 6px solid #000000;
+  border-top-width: 10px;
+  border-bottom-width: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}*/
+
+/*.sorting-list a:nth-child(4) {
+  margin-left: 8px;
+}*/
