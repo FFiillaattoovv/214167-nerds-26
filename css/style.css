@@ -914,6 +914,22 @@ main h1,
   position: relative;
 }
 
+.filter-features {
+  margin-bottom: 16px;
+}
 
+.filter-features label {
+  position: relative;
+}
 
-
+.catalog-filter .button {
+  width: 260px;
+  height: 50px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000000;
+  background-color: #eeeeee;
+}
