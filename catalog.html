@@ -7,10 +7,10 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body class="white-back-catalog">
-    <header class="main-header small">
+  <body>
+    <header class="main-header">
       <h1>Магазин готовых шаблонов</h1>
-      <nav class="main-navigation">
+      <nav class="main-navigation container">
         <a href="index.html">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="nerds-logo" aria-label="Логотип дизайн-студии «Нёрдс»" width="160px" height="65px" viewBox="0 0 160 65" enable-background="new 0 0 160 65" xml:space="preserve">
             <g>
@@ -245,22 +245,20 @@
       </section>
     </main>
     <footer>
-      <section>
+      <section class="location">
         <h2 class="visually-hidden">Как к нам проехать</h2>
-        <p>
-          <img src="img/map.png" width="1440" height="416" alt="Офис компании по адресу ул. Б. Конюшенная, д. 19/8, Санкт-Петербург">
-          <img src="img/map-marker.png">
-        </p>
-      </section>
-      <section class="write-to-us">
+          <img class="location-img" src="img/map.png" width="1440" height="416" alt="Офис компании по адресу ул. Б. Конюшенная, д. 19/8, Санкт-Петербург">
+          <!-- <img src="img/map-marker.png"> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603787253323!2d30.320858716354532!3d59.93871648187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1559157044660!5m2!1sru!2sru" width="100%" height="417" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="write-to-us">
         <h2>Nёrds design studio</h2>
-        <p class="write-to-us-info">91186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p class="write-to-us-info">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
         <p class="write-to-us-info">тел. +7 (812) 275-75-75</p>
         <button class="button" type="button">Напишите нам</button>
+      </div>
       </section>
-      <section class="social-media">
+      <section class="social-media container">
         <h2 class="visually-hidden">Социальные медиа</h2>
-        <div>
           <ul class="social-media-list">
             <li>
               <a class="grey-round" href="">
@@ -295,7 +293,6 @@
               </a>
             </li>
           </ul>
-        </div>
         <div class="offer-a-discount">
           <p class="offer-first">Давайте дружить, это выгодно!</p>
           <p class="offer-second">Скидка 10% для друзей из социальных сетей.</p>
