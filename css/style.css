@@ -20,9 +20,6 @@ a {
 .container {
   width: 1160px;
   margin: 0 auto;
-
-  background-color: #f233dc;
-  opacity: 0.4;
 }
 
 .button {
