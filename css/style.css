@@ -514,18 +514,25 @@ main h1,
   border-spacing: 0;
 }
 
-.about-us-numbers th {
-  padding-right: 15px;
+.about-us-numbers td {
+  padding-right: 19px;
   padding-bottom: 20px;
+  font-weight: bold;
   font-size: 45px;
   text-align: left;
   color: #000000;
 }
 
-.about-us-numbers td {
+.about-us-numbers sup {
+  font-size: 28px;
+}
+
+.about-us-numbers th {
   padding-top: 10px;
   line-height: 18px;
   vertical-align: middle;
+  font-weight: normal;
+  text-align: left;
 }
 
 .offer-a-discount {
