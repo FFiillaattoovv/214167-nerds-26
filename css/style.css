@@ -915,12 +915,45 @@ main h1,
   opacity: 0.3;
 }
 
-.filter-features {
+.filter-form .filter-features {
+  margin-bottom: 48px;
+}
+
+.filter-features legend {
   margin-bottom: 16px;
 }
 
 .filter-features label {
+  cursor: pointer;
   position: relative;
+}
+
+.filter-features-checkbox + label::before {
+  position: absolute;
+  top: -2px;
+  left: -35px;
+  content: "";
+  width: 28px;
+  height: 25px;
+  background: url(../img/checkbox-off.svg) no-repeat;
+  opacity: 0.4;
+}
+
+.filter-features-checkbox:not(:disabled):hover + label::before,
+.filter-features-checkbox:focus + label::before {
+  opacity: 1;
+}
+
+.filter-features-checkbox:disabled + label {
+  opacity: 0.3;
+}
+
+.filter-features-checkbox:checked + label::before {
+  background: url("../img/checkbox-on.svg") no-repeat;
+}
+
+.filter-features-checkbox:disabled + label {
+  cursor: default;
 }
 
 .catalog-filter .button,
