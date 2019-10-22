@@ -768,6 +768,22 @@ main h1,
   margin-bottom: 56px;
 }
 
+.filter-form ul {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.filter-form li {
+  margin-bottom: 20px;
+  padding-left: 36px;
+}
+
+.filter-form li:last-child {
+  margin-bottom: 0;
+}
+
 .filter-cost legend {
   margin-bottom: 48px;
 }
@@ -862,6 +878,41 @@ main h1,
 .filter-grid label {
   cursor: pointer;
   position: relative;
+}
+
+.filter-grid label::before {
+  position: absolute;
+  left: -35px;
+  top: -3px;
+  content: "";
+  width: 17px;
+  height: 17px;
+  border: 4px solid #000000;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.filter-grid input[type="radio"]:checked + label::after {
+  position: absolute;
+  left: -27px;
+  top: 5px;
+  content: "";
+  width: 9px;
+  height: 9px;
+  background-color: #000000;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.filter-grid input[type="radio"]:focus + label::before,
+.filter-grid input[type="radio"]:focus + label::after,
+.filter-grid input[type="radio"]:not(:disabled):hover + label::before,
+.filter-grid input[type="radio"]:not(:disabled):hover + label::after {
+  opacity: 1;
+}
+
+.filter-grid input[type="radio"]:disabled + label {
+  opacity: 0.3;
 }
 
 .filter-features {
