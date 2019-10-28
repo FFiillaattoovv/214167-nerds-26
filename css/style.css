@@ -278,7 +278,7 @@ input[type="radio"].visually-hidden {
   top: 0;
   left: 50%;
   z-index: -1;
-  margin-left: -766px;
+  margin-left: -786px;
 }
 
 .write-to-us {
@@ -313,7 +313,8 @@ input[type="radio"].visually-hidden {
 .write-to-us .button {
   width: 220px;
   height: 50px;
-  padding: 16px 45px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-top: 19px;
 }
 
