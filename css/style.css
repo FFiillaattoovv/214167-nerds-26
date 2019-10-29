@@ -647,46 +647,56 @@ main h1,
 }
 
 .write-to-us-form {
-  margin: 0 auto;
-  position: relative;
+  position: fixed;
+  left: 50%;
+  top:  25%;
+  display: none;
   box-sizing: border-box;
   width: 960px;
-  padding: 70px 100px 85px 100px;
-  box-shadow: 0 0 30px -10px #000101;
+  margin-left: -480px;
+  padding: 66px 100px 85px 100px;
+  box-shadow: 0 15px 30px -5px #000101;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .write-to-us-form h2 {
   margin-top: 0;
+  margin-bottom: 38px;
   font-size: 45px;
   line-height: 45px;
+  color: #000000;
 }
 
 .write-to-us-form label {
   font-size: 16px;
   font-weight: 700;
+  color: #000000;
 }
 
 .write-to-us-field-container {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 31px;
 }
 
 .write-to-us-field {
   box-sizing: border-box;
   width: 360px;
   height: 50px;
-  padding: 15px;
-  margin-top: 10px;
+  padding: 13px;
+  padding-bottom: 17px;
+  margin-top: 7px;
   margin-right: 40px;
 }
 
 .write-to-us-text {
   box-sizing: border-box;
   width: 100%;
-  padding: 15px;
-  margin-top: 10px;
-  margin-bottom: 48px;
+  padding: 13px;
+  padding-top: 10px;
+  resize: vertical;
+  margin-top: 5px;
+  margin-bottom: 41px;
 }
 
 .write-to-us-button {
@@ -700,18 +710,19 @@ main h1,
   font-family: inherit;
   font-size: 16px;
   line-height: 18px;
-  color: #444444;
+  color: rgba(68, 68, 68, 0.5);
   border: 2px solid #d7dcde;
   outline: none;
 }
 
-.write-to-us-form input,
-.write-to-us-form textarea {
+.write-to-us-form input:hover,
+.write-to-us-form textarea:hover {
   border-color: #b4b9bb;
 }
 
-.write-to-us-form input,
-.write-to-us-form textarea {
+.write-to-us-form input:focus,
+.write-to-us-form textarea:focus {
+  color: rgba(68, 68, 68, 1);
   border-color: #000000;
 }
 
@@ -1273,4 +1284,43 @@ main h1,
   border-radius: 50%;
 }
 
+.write-to-us-button-close {
+  position: absolute;
+  top: 78px;
+  right: 89px;
+  width: 22px;
+  height: 22px;
+  background: none;
+  border: 0;
+  opacity: 0.3;
+}
+
+.write-to-us-button-close::before,
+.write-to-us-button-close::after {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  content: "";
+  width: 27px;
+  height: 4px;
+  margin-right: -2px;
+  background-color: #e74246;
+}
+
+.write-to-us-button-close::before {
+  transform: rotate(45deg);
+}
+
+.write-to-us-button-close::after {
+  transform: rotate(-45deg);
+}
+
+.write-to-us-button-close:hover,
+.write-to-us-button-close:focus {
+  opacity: 1;
+}
+
+.write-to-us-button-close:active {
+  opacity: 0.1;
+}
 
