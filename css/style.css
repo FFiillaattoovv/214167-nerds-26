@@ -1,4 +1,5 @@
 body {
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: Roboto, Arial, sans-serif;
@@ -225,7 +226,7 @@ input[type="radio"].visually-hidden {
   align-items: center;
 
   margin: 0;
-  padding: 46px 0 37px 0;
+  padding: 46px 0 40px 0;
 }
 
 .our-customers-list li {
@@ -284,19 +285,38 @@ input[type="radio"].visually-hidden {
 }
 
 .location {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.location-img {
+.map-wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+.map-container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.map-container img {
+  width: 100%;
+}
+
+.map-container iframe {
   position: absolute;
-  top: 0;
-  left: 50%;
-  z-index: -1;
-  margin-left: -786px;
+  z-index: 2;
+  width: 100%;
+  border: 0;
 }
 
 .write-to-us {
   position: absolute;
+  z-index: 3;
   top: 54px;
   left: 50%;
   width: 220px;
@@ -363,7 +383,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header {
-  padding-top: 51px;
+  padding-top: 49px;
   background-color: #eeeeee;
 }
 
@@ -550,7 +570,7 @@ main h1,
 
 .offer-a-discount {
   margin: 0;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .offer-a-discount .offer-first {
@@ -566,7 +586,7 @@ main h1,
   margin: 0px;
   font-size: 16px;
   line-height: 22px;
-  font-weight: regular;
+  font-weight: normal;
   color: #444444;
 }
 
@@ -646,8 +666,8 @@ main h1,
 
 .social-media {
   display: flex;
-  margin-bottom: 69px;
-  margin-top: 69px;
+  margin-bottom: 77px;
+  margin-top: 61px;
 }
 
 .social-media-list {
@@ -662,6 +682,7 @@ main h1,
 
 .write-to-us-form {
   position: fixed;
+  z-index: 3;
   left: 50%;
   top:  50%;
   display: none;
@@ -1102,7 +1123,7 @@ main h1,
 
 .templates-item {
   position: relative;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
   padding-top: 41px;
   overflow: hidden;
 }

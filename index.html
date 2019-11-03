@@ -5,7 +5,7 @@
     <title>Дизайн-студия «Нёрдс»</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/min-style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -177,15 +177,19 @@
     </main>
     <footer>
       <section class="location">
-        <h2 class="visually-hidden">Как к нам проехать</h2>
-          <img class="location-img" src="img/map.png" width="1440" height="416" alt="Офис компании по адресу ул. Б. Конюшенная, д. 19/8, Санкт-Петербург">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603787253323!2d30.320858716354532!3d59.93871648187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1559157044660!5m2!1sru!2sru" width="100%" height="417" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <div class="write-to-us">
-        <h2>Nёrds design studio</h2>
-        <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <a class="button location-button" href="#">Напишите нам</a>
-      </div>
+        <div class="map-container">
+          <h2 class="visually-hidden">Как к нам проехать</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603787253323!2d30.320858716354532!3d59.93871648187622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1559157044660!5m2!1sru!2sru" height="417" style="border:0; width: 100%" allowfullscreen></iframe>
+          <div class="map-wrapper">
+            <img src="img/map.png" width="1440" height="416" alt="Офис компании по адресу ул. Б. Конюшенная, д. 19/8, Санкт-Петербург">
+            <div class="write-to-us">
+              <h2>Nёrds design studio</h2>
+              <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+              <p>тел. +7 (812) 275-75-75</p>
+              <a class="button location-button" href="form.html">Напишите нам</a>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="social-media container">
         <h2 class="visually-hidden">Социальные медиа</h2>
@@ -240,10 +244,10 @@
         </label>
       </div>
         <label for="user-letter">Текст письма:</label>
-        <textarea class="write-to-us-text" id="user-letter" type="text" name="letter" rows="6" placeholder="В свободной форме"></textarea>
+        <textarea class="write-to-us-text" id="user-letter" name="letter" rows="6" placeholder="В свободной форме"></textarea>
       <button class="button write-to-us-button" type="submit">Отправить</button>
       <button class="write-to-us-button-close" type="button"><span class="visually-hidden">Закрыть</span></button>
     </form>
-    <script src="js/script.js"></script>
+    <script src="js/min-script.js"></script>
   </body>
 </html>
