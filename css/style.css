@@ -2,7 +2,7 @@ body {
   min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
@@ -35,13 +35,11 @@ input[type="radio"].visually-hidden {
   0%, 100% {transform: translateX(0);}
   10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
   20%, 40%, 60%, 80% {transform: translateX(10px);}
-  }
+}
 
 @keyframes grow {
-  0% {transform: scale(0);
-       opacity: 0;}
-  100% {transform: scale(1);
-         opacity: 1;}
+  0% {transform: scale(0); opacity: 0;}
+  100% {transform: scale(1); opacity: 1;}
 }
 
 .container {
@@ -62,7 +60,6 @@ input[type="radio"].visually-hidden {
   vertical-align: middle;
   text-transform: uppercase;
   border-radius: 5px;
-
   background-color: #fb565a;
   border: none;
 }
@@ -224,9 +221,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin: 0;
-  padding: 46px 0 40px 0;
+  padding: 46px 0 36px 0;
 }
 
 .our-customers-list li {
@@ -239,12 +235,10 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 50%;
   right: -20px;
-
   content: "";
   width: 2px;
   height: 52px;
   margin-top: -30px;
-
   background-color: #eeeeee;
 }
 
@@ -294,7 +288,6 @@ input[type="radio"].visually-hidden {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-
 }
 
 .map-container {
@@ -342,6 +335,10 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   margin: 0;
   margin-bottom: 18px;
+}
+
+.write-to-us .write-to-us-address {
+  width: 96%;
 }
 
 .write-to-us .button {
@@ -516,7 +513,6 @@ main h1,
   position: absolute;
   top: 50%;
   left: -36px;
-
   content: "";
   display: block;
   width: 25px;
@@ -590,38 +586,6 @@ main h1,
   color: #444444;
 }
 
-.grey-round {
-  width: 79px;
-  height: 79px;
-  border-radius: 50%;
-  background-color: #e1e1e1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grey-round:hover,
-.grey-round:focus  {
-  width: 79px;
-  height: 79px;
-  border-radius: 50%;
-  background-color: #e74246;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grey-round:active {
-  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-  background-color: #d7373b;
-}
-
-.grey-round:active svg {
-  opacity: 0.3;
-}
-
 .nerds-logo:hover,
 .nerds-logo:focus {
   opacity: 0.8;
@@ -667,7 +631,7 @@ main h1,
 .social-media {
   display: flex;
   margin-bottom: 77px;
-  margin-top: 61px;
+  margin-top: 63px;
 }
 
 .social-media-list {
@@ -678,6 +642,57 @@ main h1,
   flex-wrap: wrap;
   width: 260px;
   margin-right: 140px;
+}
+
+.social-media-item {
+  font-size: 0;
+}
+
+.grey-round {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grey-round::after {
+  content: "";
+  display: block;
+  transition: opacity 0.3s;
+}
+
+.vk-icon::after {
+  width: 26px;
+  height: 15px;
+  background: url("../img/vk-icon.svg") no-repeat center;
+}
+
+.fb-icon::after {
+  width: 12px;
+  height: 22px;
+  background: url("../img/fb-icon.svg") no-repeat center;
+}
+
+.ig-icon::after {
+  width: 21px;
+  height: 21px;
+  background: url("../img/insta-icon.svg") no-repeat center;
+}
+
+.grey-round:hover,
+.grey-round:focus {
+  background-color: #e74246;
+}
+
+.grey-round:active {
+  background-color: #d7373b;
+}
+
+.grey-round:active::after {
+  opacity: 0.3;
 }
 
 .write-to-us-form {
@@ -983,7 +998,7 @@ main h1,
   content: "";
   width: 28px;
   height: 25px;
-  background: url(../img/checkbox-off.svg) no-repeat;
+  background: url("../img/checkbox-off.svg") no-repeat;
   opacity: 0.4;
 }
 
